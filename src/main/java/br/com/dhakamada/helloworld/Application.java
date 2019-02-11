@@ -1,13 +1,13 @@
-package br.com.dhakamada.helloworld.helloworlddocker;
+package br.com.dhakamada.helloworld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloworldDockerApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloworldDockerApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
